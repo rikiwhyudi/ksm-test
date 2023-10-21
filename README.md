@@ -15,7 +15,7 @@ berisi test kompleks sql query
 
 - productLineQuery: mencari customerNumber yg productline > 23
 - kursPajakProcedures: membuat procedure untuk membuat table kurs_pajak dengan transaksional db dan datanya di isi dari ksm_kurs_pajak
-- findMindDates untuk: membuat function untuk mencari tanggal terkecil dari string yang ter-concatenated 
+- findMindDates: membuat function untuk mencari tanggal terkecil dari string yang ter-concatenated 
 
 
 
