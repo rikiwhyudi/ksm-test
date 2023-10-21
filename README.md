@@ -6,9 +6,9 @@ berisi test coding
 - fizzBuzz.ts
 - isPalindrome.ts
 
-di tulis menggunakan bahasa typescript yang di compiler menjadi javascript\
-untuk mengcompile nya pastikan typescript sudah terinstall cek dengan perintah tsc -v\
-kemudian compile dengan cara buka terminal **"tsc namafile"** lalu jalankan hasil compile dengan node namafile\
+di tulis menggunakan bahasa typescript yang di compiler menjadi javascript
+untuk mengcompile nya pastikan typescript sudah terinstall cek dengan perintah tsc -v
+kemudian compile dengan cara buka terminal **"tsc namafile"** lalu jalankan hasil compile dengan node namafile
 
 ### `sql`
 berisi test kompleks sql query
