@@ -1,13 +1,13 @@
 function isPalindrome(args: string): boolean {
-    const toLower = args.toLowerCase();
+    const lowerCase = args.toLowerCase();
     
     let reversed = '';
     
-    for (let i = toLower.length - 1; i >= 0; i--) {
-        reversed += toLower[i];
+    for (let i = lowerCase.length - 1; i >= 0; i--) {
+        reversed += lowerCase[i];
     }
     
-    return toLower === reversed;
+    return lowerCase === reversed;
 }
 
 const str = "kasurrusak";
