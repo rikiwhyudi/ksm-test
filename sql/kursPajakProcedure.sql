@@ -1,7 +1,7 @@
 CREATE DEFINER=`root`@`%` PROCEDURE `KursPajak`()
 BEGIN
 
- DECLARE rowCount INT;
+ DECLARE kurs_pajak_count INT;
  
   START TRANSACTION;
   -- Buat tabel "kurs_pajak" jika belum ada
@@ -13,9 +13,9 @@ BEGIN
     PRIMARY KEY (`id_ksm_kurs_pajak`)
   );
 
-  SELECT COUNT(*) INTO @rowCount FROM `kurs_pajak`;
+  SELECT COUNT(*) INTO @kurs_pajak_count FROM `kurs_pajak`;
 
-  IF @rowCount = 0 THEN
+  IF @kurs_pajak_count = 0 THEN
     -- Isi tabel "kurs_pajak" dengan data dari tabel "ksm_kurs_pajak"
     INSERT INTO `kurs_pajak` (`kurs_rate`, `tgl`, `curr_id`)
     SELECT `kurs_rate`, `start_date`, `curr_id`
